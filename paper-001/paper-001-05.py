@@ -1,7 +1,7 @@
 txt = "this is just a text... saying hello world!"
 for i in txt:
-    if ["a", "e", "i", "o", "u"] in i:
+    if i in ["a", "e", "i", "o", "u"]:
         continue
     elif i == ".":
         break
-    print("i",end="")
+    print(i,end="")
