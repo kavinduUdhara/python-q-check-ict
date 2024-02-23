@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>contact us | abc book shop</title>
+</head>
+<body>
+    <h3>Contact us</h3>
+    <form action="send.php" method="post">
+        <label for="name">Name: </label> 
+        <input name="name" id="name" type="text" placeholder="David"><br>
+        <label for="e-mail">Email: </label>
+        <input type="email" name="e-mail" id="e-mail" placeholder="david@example.com"><br>
+        <label>who do u wanna talk to?</label>
+        <input type="radio" name="c-person" id="c-person" value="manager">manager
+        <input type="radio" name="c-person" id="c-person" value="assistant" checked>assistant <br>
+        <label for="message">your message: </label> <br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
