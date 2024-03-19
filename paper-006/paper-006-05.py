@@ -7,4 +7,4 @@ def cal_total_sal(salary = 50000, yos = 1):
     else:
         print(f"salary without bonus: {salary}")
         
-cal_total_sal(yos=10, salary=70000)
+cal_total_sal(yos=10, salary=75000)
